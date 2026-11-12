@@ -1,0 +1,10 @@
+{
+  "type": "LAMBDAQ_D30K_RUNTIME_COMMITMENT",
+  "protocol": "RV-05",
+  "runtime_tree_sha256": "71e4417ac350228a29910aadba4d67b17aeccd3b797cfa880fd804866eef0f53",
+  "module_count": 14,
+  "github_release": "https://github.com/LambdaInfo/lambda-q-cepheus-d30k/releases/tag/RV-05",
+  "zenodo_doi": "10.5281/zenodo.24171772",
+  "created_utc": "2026-11-12T22:40:44.711826+00:00",
+  "execution_authorized": false
+}
