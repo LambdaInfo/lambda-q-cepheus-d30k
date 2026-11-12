@@ -1,0 +1,64 @@
+{
+  "document_type": "PROSPECTIVE_OBSERVATIONAL_PREREGISTRATION",
+  "protocol_version": "RV-05",
+  "research_project": "Lambda-Q Rigetti Cepheus D30K",
+  "owner": "Lambdainfo Tecnologia Ltda.",
+  "prepared_utc_date": "2026-11-12",
+  "published": false,
+  "github_release_url": null,
+  "zenodo_doi": null,
+  "device_arn": "arn:aws:braket:us-west-1::device/qpu/rigetti/Cepheus-1-108Q",
+  "code": {
+    "family": "repetition",
+    "d": 5,
+    "R": 1,
+    "det_final": true,
+    "data_qubits": [
+      74,
+      82,
+      90,
+      100,
+      102
+    ],
+    "ancillas": [
+      73,
+      81,
+      99,
+      101
+    ]
+  },
+  "sessions": [
+    "S01",
+    "S02",
+    "S03"
+  ],
+  "minimum_separation_hours": 24,
+  "preparations": [
+    "00000",
+    "01010",
+    "10101",
+    "11111"
+  ],
+  "shots_per_preparation_session": 2500,
+  "planned_tasks": 12,
+  "planned_shots": 30000,
+  "primary_implementation": "historical D10K/D16K Lambda-Q pipeline; unlabeled batch-dependent processing preserved; no alternative parametrization",
+  "selected_thresholds": "historical freeze 2026-11-08 unchanged; values private",
+  "outcome_requirement": "report all results; no minimum rate or guaranteed superiority",
+  "sha256_commitments": {
+    "lambda3_field": "cec4b9d9957bacffffe6c9fb8f89ab2ecbc74819b4065ef4a7431eaadbd7fcbf",
+    "thresholds": "5811c3db3cce3426ba0e58e06f23035ff2a0cbb45e062ee139e8f2a82f04b11c",
+    "lambda8_log": "c43cba708013e1dee0ed7e2f0dfaba68d9d038f336dee66a87c4b232135e58fb",
+    "qasm": {
+      "00000": "f46c7930d032e7ec5b2a13f69989d3be393f646028d0d8814898de68e205240c",
+      "01010": "c4ea78bb5fcbd1e33fe067a29bf8a17208f38920c8a4c682915db48cd251bbd7",
+      "10101": "a9b29d7f34414992b8dafb1e2a90592a969b0550f67ee0b823740980f35f1cf7",
+      "11111": "f602234065fe3d4821c8f37b31e9e1a7fcc7b090dc5640c88cb2cf2b337b6670"
+    },
+    "historical_private_package": "abb8b62c96563c2113fcf02909c2beecece7809536b14220db344f889d0a60cf",
+    "d30k_controller_candidate": "5bed16a97cd1838d80d34f07101c30b279bc7572e36ac201aa7784bc84e97755",
+    "d30k_verifier_candidate": "596c3b8d56b21b004c3f58f5b5963c0e45072d25ec9ccca0d28ef92d9c0dfe04"
+  },
+  "execution_enabled": false,
+  "release_condition": "verify actual runtime code SHA and approved control code hashes prior to deposit and again before first paid task; timestamp public release before any D30K acquisition"
+}
