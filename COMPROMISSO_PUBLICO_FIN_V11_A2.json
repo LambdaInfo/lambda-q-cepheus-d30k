@@ -1,0 +1,31 @@
+{
+  "document_type": "LAMBDAQ_D30K_FINANCIAL_GATE_CHANGE_COMMITMENT",
+  "revision": "FIN_V1.1_CANDIDATE",
+  "protocol_original": "RV-05",
+  "zenodo_original_doi": "10.5281/zenodo.24171772",
+  "zenodo_runtime_addendum_doi": "10.5281/zenodo.24180603",
+  "github_original_tag": "https://github.com/LambdaInfo/lambda-q-cepheus-d30k/releases/tag/RV-05",
+  "original_controller_sha256": "5bed16a97cd1838d80d34f07101c30b279bc7572e36ac201aa7784bc84e97755",
+  "candidate_controller_sha256": "fd86583c3f93a4beafc14a844ab837512b5c85de879425362111220e6367b12f",
+  "verifier_unchanged_sha256": "596c3b8d56b21b004c3f58f5b5963c0e45072d25ec9ccca0d28ef92d9c0dfe04",
+  "runtime_tree_unchanged_sha256": "71e4417ac350228a29910aadba4d67b17aeccd3b797cfa880fd804866eef0f53",
+  "scope": "financial authorization per session only; no scientific algorithm or pre-registered QASM changes",
+  "nominal_unit_cost_usd": {
+    "per_task": 0.3,
+    "per_shot": 0.000425
+  },
+  "session_limit": {
+    "shots": 10000,
+    "tasks": 4,
+    "nominal_usd": 5.45
+  },
+  "total_plan": {
+    "shots": 30000,
+    "tasks": 12,
+    "nominal_usd": 16.35
+  },
+  "session_authorization_required_independently": true,
+  "published": false,
+  "execution_authorized": false,
+  "created_utc": "2026-11-13T00:47:35.110604+00:00"
+}
